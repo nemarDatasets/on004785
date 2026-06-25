@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004785",
-  "source": "openneuro",
-  "source_id": "ds004785",
+  "pipeline_stage": "enriched",
   "title": "EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Scott Boebinger": {},
     "Aiden Payne": {},
@@ -14,21 +14,67 @@
     "Michael Borich": {},
     "Lena Ting": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004785.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004785",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004785",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004785",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains electroencephalography (EEG) recordings collected to investigate the cortical mechanisms underlying sensorimotor feedback control during reactive balance tasks. The data supports research examining how precise cortical contributions enable rapid postural adjustments in response to balance perturbations.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sensorimotor control"
+    },
+    {
+      "term": "postural balance"
+    },
+    {
+      "term": "feedback control"
+    },
+    {
+      "term": "cortical activity"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "reactive balance"
+    },
+    {
+      "term": "postural perturbation"
+    }
+  ],
+  "source_hash": "453e28773f164380aceb178cbd18b8715b6b0d0bd06fc3eb531d147b41ec9479"
 }
