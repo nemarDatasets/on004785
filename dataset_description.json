@@ -1,20 +1,26 @@
 {
-    "Name": "EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance",
-    "License": "CC0",
-    "Authors": [
-        "Scott Boebinger",
-        "Aiden Payne",
-        "Giovanni Martino",
-        "Kennedy Kerr",
-        "Jasmine Mirdamadi",
-        "J. Lucas McKay",
-        "Michael Borich",
-        "Lena Ting"
-    ],
-    "ReferencesAndLinks": [
-        ""
-    ],
-    "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004785.v1.0.1"
+  "Name": "EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance",
+  "License": "CC0",
+  "Authors": [
+    "Scott Boebinger",
+    "Aiden Payne",
+    "Giovanni Martino",
+    "Kennedy Kerr",
+    "Jasmine Mirdamadi",
+    "J. Lucas McKay",
+    "Michael Borich",
+    "Lena Ting"
+  ],
+  "ReferencesAndLinks": [
+    ""
+  ],
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "DatasetDOI": "10.82901/nemar.on004785",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004785.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }
