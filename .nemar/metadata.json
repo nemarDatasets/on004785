@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance",
-  "description": "This dataset contains electroencephalography (EEG) recordings collected to investigate the cortical mechanisms underlying sensorimotor feedback control during reactive balance tasks. The data support a study examining precise cortical contributions to balance control in response to perturbations, providing insights into the neural basis of postural stability and reactive motor responses.",
+  "description": "This dataset contains electroencephalography (EEG) recordings collected during reactive balance perturbations to investigate cortical contributions to feedback-driven sensorimotor control. The data support analyses of how specific cortical regions contribute to reactive postural responses following balance disturbances. It is intended to inform understanding of the neural mechanisms underlying balance control and their potential relevance to rehabilitation research.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,47 +20,23 @@
       "term": "EEG"
     },
     {
+      "term": "Postural Balance",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004856"
+    },
+    {
       "term": "sensorimotor control"
-    },
-    {
-      "term": "balance"
-    },
-    {
-      "term": "postural control"
-    },
-    {
-      "term": "motor cortex"
-    },
-    {
-      "term": "feedback control"
     },
     {
       "term": "reactive balance"
     },
     {
-      "term": "perturbation"
-    },
-    {
-      "term": "cortical"
-    },
-    {
-      "term": "neuroscience"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "BIDS"
+      "term": "cortical activity"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004785",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004785",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -73,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds004785.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004785",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
