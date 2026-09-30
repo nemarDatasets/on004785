@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance",
-  "description": "This dataset contains electroencephalography (EEG) recordings collected during reactive balance perturbations to investigate cortical contributions to feedback-driven sensorimotor control. The data support analyses of how specific cortical regions contribute to reactive postural responses following balance disturbances. It is intended to inform understanding of the neural mechanisms underlying balance control and their potential relevance to rehabilitation research.",
+  "description": "This dataset contains electroencephalography (EEG) recordings collected to study cortical contributions to feedback sensorimotor control during reactive balance. It accompanies a paper examining how cortical activity relates to balance responses following perturbations. The data are organized in BIDS format with HED annotations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,18 +20,18 @@
       "term": "EEG"
     },
     {
-      "term": "Postural Balance",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004856"
+      "term": "reactive balance"
     },
     {
       "term": "sensorimotor control"
     },
     {
-      "term": "reactive balance"
+      "term": "cortical activity"
     },
     {
-      "term": "cortical activity"
+      "term": "Postural Balance",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004856"
     }
   ],
   "related_identifiers": [
@@ -61,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "368.2 MB (18 files)"
+    "351 MB (18 files)"
   ],
   "formats": [
     ".json",
